@@ -1,5 +1,7 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  * main - Determine random number print output.
  * Return: 0 on success
