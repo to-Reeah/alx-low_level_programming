@@ -1,23 +1,15 @@
 #include <stdio.h>
-
 /**
- * main - print lowercase in reverse.
- * Return: 0 on success.
-*/
-
+  * main - entry block
+  * @void: no argument
+  * Return: 0
+**/
 int main(void)
 {
-	char l;
+	char u;
 
-	l = 'z';
-
-	while (l >= 'a')
-	{
-		putchar(l);
-		l--;
-	}
-
+	for (u = 'z' ; u >= 'a'; u--)
+		putchar(u);
 	putchar('\n');
-
 	return (0);
 }
