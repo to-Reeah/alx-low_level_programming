@@ -9,6 +9,10 @@ int main(void)
 	_putchar('p');
 	_putchar('a');
 	_putchar('v');
+	_putchar('w');
+	_putchar('o');
+	_putchar('x');
+	_putchar('q');
 	_putchar('\n');
 return (0);
 }
