@@ -5,15 +5,10 @@
  */
 int main(void)
 {
-	char mikayla[] = "_putchar";
-	int i = 0;
-
-	while (mikayla[i] != '\0')
-	{
-		_putchar(mikayla[i]);
-		i++;
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('a');
+	_putchar('v');
 	_putchar('\n');
-
-	return (0);
+return (0);
 }
