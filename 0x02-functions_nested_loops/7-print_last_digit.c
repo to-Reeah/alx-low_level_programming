@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * print_last_digit - prints the value of the last digit of k
- * description: @k int type number
- * Return: value of last digit of k
+ * print_last_digit - prints the last digit of n
+ * description: @n int type number
+ * Return: return value of last digit of n
  */
-int print_last_digit(int k)
+int print_last_digit(int n)
 {
-	k = k % 10;
-	if (k < 0)
-		k = -k;
-	-putchar('0' + (k));
-	return (k);
+	n = n % 10;
+	if (n < 0)
+		n = -n;
+	-putchar('0' + (n));
+	return (n);
 }
