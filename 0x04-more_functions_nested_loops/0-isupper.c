@@ -1,14 +1,14 @@
 include "main.h"
 /**
  * _isupper - print a function that checks uppercase character
- * @c: is it char?
+ * @c: takes in a character
  *
- * Return: 1 if uppercase, 0 if otherwise
+ * Return: 1 for uppercase, 0 otherwise
  */
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
+if (c >= 'A' && c <= 'Z')
+return (1);
+else
+return (0);
 }
