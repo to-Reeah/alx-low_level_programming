@@ -3,13 +3,13 @@
  * swap_int - print a function that swaps the value of two integers
  * @a: takes an int
  * @b: takes an int
- * Return: value
+ * Return: 0
  */
 
 void swap_int(int *a, int *b)
 {
-	int v = *a;
+	int i = *a;
 
 	*a = *b;
-	*b = *v;
+	*b = *i;
 }
